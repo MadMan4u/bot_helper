@@ -1,6 +1,12 @@
 import subprocess
 
+def check_for_updates():
+    print("Проверка обновлений...")
+    subprocess.run(["python", "update.py"])
+
 def main():
+    check_for_updates()  # Проверяем обновления перед выполнением команд
+
     print("Что вы хотите сделать?")
     print("1. Продублировать намерения NLU")
     print("2. Выгрузить речевые модули из робота")
