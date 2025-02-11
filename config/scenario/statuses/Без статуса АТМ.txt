@@ -1,0 +1,19 @@
+{
+    "name": "Без статуса АТМ",
+    "is_active": true,
+    "is_final": true,
+    "is_another_phone": false,
+    "max_for_lead": 0,
+    "max_recall_days": 0,
+    "max_recall_from_base": false,
+    "recall_required_phone": false,
+    "repeat_minutes": 0,
+    "campaign_id": 0,
+    "comment": {
+        "required": false,
+        "show": false,
+        "type": null,
+        "options": null
+    },
+    "type": "RJ"
+}

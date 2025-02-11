@@ -1,0 +1,5 @@
+{
+    "audience": "qsiq.front",
+    "username": "",
+    "password": ""
+}
