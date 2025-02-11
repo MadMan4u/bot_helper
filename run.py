@@ -2,7 +2,7 @@ import subprocess
 
 def check_for_updates():
     print("Проверка обновлений...")
-    subprocess.run(["python", "update.py"])
+    subprocess.run(["python", "config/update.py"])
 
 def main():
     check_for_updates()  # Проверяем обновления перед выполнением команд
